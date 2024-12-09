@@ -36,6 +36,11 @@ model.eval()  # Set the model to evaluation mode
 
 bot_name = "Fuze"
 
+
+def home(request):
+    return render(request, 'home.html')
+
+
 def get_response(msg):
     """Get the chatbot's response based on user input."""
 
