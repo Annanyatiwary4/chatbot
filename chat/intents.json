@@ -1,134 +1,124 @@
 {
-    "intents": [
-        {
-          "intent": "greeting",
-        "examples": [
-        "Hi",
-        "Hello",
-        "Hey",
-        "How are you?",
-        "Good morning",
-        "Good evening"
-    ],
-    "responses": [
-        "Hello! How can I assist you today?",
-        "Hi there! How can I help?",
-        "Greetings! How can I assist?"
-    ]
-  },
-
-      {
-        "intent": "CreateRoom",
-        "examples": [
-          "I want to create a new room",
-          "How do I start a project room?",
-          "Set up a room for collaboration",
-          "Create a project space",
-          "Start a new room"
-        ],
-        "responses": [
-          "To create a room, navigate to the 'Create Room' section from the dashboard and fill in the project details.",
-          "You can create a room by clicking on 'Create Room' on the homepage and inviting team members."
-        ]
-      },
-      {
-        "intent": "PostDiscussion",
-        "examples": [
-          "How can I post a discussion?",
-          "I want to share my thoughts in the forum",
-          "Where can I add a post?",
-          "How do I create a post in the room?",
-          "Start a discussion in the forum"
-        ],
-        "responses": [
-          "To post a discussion, go to the 'Discussion Forum' in your room and click 'New Post' to share your thoughts.",
-          "Navigate to your project's discussion forum and click 'Add Post' to start a new discussion."
-        ]
-      },
-      {
-        "intent": "UploadFiles",
-        "examples": [
-          "How do I upload project files?",
-          "Where can I add resources?",
-          "Upload documents to the room",
-          "Share files with my team",
-          "Add project materials"
-        ],
-        "responses": [
-          "To upload files, click on the 'Files' tab in your project room and select 'Upload Files'.",
-          "Go to the 'Files' section of your room and drag-and-drop your documents or use the upload button."
-        ]
-      },
-      {
-        "intent": "TrackProgress",
-        "examples": [
-          "How do I track project progress?",
-          "Can I see completed tasks?",
-          "View project milestones",
-          "Track team progress",
-          "Where can I check task statuses?"
-        ],
-        "responses": [
-          "To track progress, use the 'Task Management' tab in your room to view tasks, milestones, and deadlines.",
-          "The 'Task Management' section in your project room provides a clear overview of ongoing and completed tasks."
-        ]
-      },
-      {
-        "intent": "RealTimeChat",
-        "examples": [
-          "How can I chat with my teammates?",
-          "Start a group chat in the room",
-          "Where is the chat feature?",
-          "Can I send real-time messages?",
-          "How do I message my group?"
-        ],
-        "responses": [
-          "You can use the 'Chat' feature in your project room for real-time communication with your teammates.",
-          "To chat with your team, open the room and click on the 'Chat' tab for instant messaging."
-        ]
-      },
-      {
-        "intent": "GetNotifications",
-        "examples": [
-          "Will I get updates on project changes?",
-          "How do notifications work?",
-          "Receive alerts for new posts",
-          "Can I get reminders for deadlines?",
-          "What happens if someone comments on my post?"
-        ],
-        "responses": [
-          "You will receive notifications for new posts, comments, and updates directly in the notification center.",
-          "Project milestones and comments will trigger alerts that you can view in your notifications tab."
-        ]
-      },
-      {
-        "intent": "ExportPDF",
-        "examples": [
-          "How do I download project content?",
-          "Can I export a report?",
-          "Save project discussions as PDF",
-          "Export the project to PDF",
-          "Download project milestones"
-        ],
-        "responses": [
-          "To export content, go to the 'Export' section in your project room and select 'Export as PDF'.",
-          "Click on 'Export PDF' in your room to download the project discussions, files, and milestones."
-        ]
-      },
-      {
-        "intent": "HelpNavigation",
-        "examples": [
-          "Where can I find the discussion forum?",
-          "Help me navigate the website",
-          "I need assistance with navigation",
-          "Where is the task management tab?",
-          "Guide me to the chat section"
-        ],
-        "responses": [
-          "The discussion forum, chat, and task management tabs are all located within each project room for easy access.",
-          "You can find all key sections like Chat, Files, and Discussion Forum directly in your project room menu."
-        ]
-      }
-    ]
-  }
-  
+  "intents": [
+    {
+      "intent": "greeting",
+      "examples": ["hello", "hi","hiii","hey", "good morning","hellooooo" ,"good evening"],
+      "responses": ["Hello!", "Hi there!", "Greetings!", "Hey! How can I help you today?"]
+    },
+    {
+      "intent": "goodbye",
+      "examples": ["bye", "see you", "goodbye", "talk to you later", "catch you later"],
+      "responses": ["Goodbye!", "See you soon!", "Take care!", "Have a great day!"]
+    },
+    {
+      "intent": "thanks",
+      "examples": ["thanks", "thank you", "thx", "appreciate it", "thanks a lot"],
+      "responses": ["You're welcome!", "Anytime!", "Glad to help!", "No problem!"]
+    },
+    {
+      "intent": "help",
+      "examples": ["what can you do", "help me", "i need help", "how can you help", "show me features"],
+      "responses": [
+        "I can chat with you, tell you the weather, or answer questions from Wikipedia!",
+        "I'm your smart assistant! Ask me anything factual or weather-related."
+      ]
+    },
+    {
+      "intent": "weather",
+      "examples": [
+        "what's the weather",
+        "weather in delhi",
+        "tell me the weather",
+        "show me weather report",
+        "is it raining in mumbai",
+        "how's the weather outside",
+        "will it rain today"
+      ],
+      "responses": ["Let me check the weather for you...", "Fetching weather details..."]
+    },
+    {
+      "intent": "wikipedia",
+      "examples": [
+        "who is elon musk",
+        "what is ai",
+        "tell me about python",
+        "what is a black hole",
+        "give me information about india",
+        "can you explain AI",
+        "what is machine learning",
+        "define democracy",
+        "what do you know about mars",
+        "what does capitalism mean",
+        "tell me something about gravity",
+        "search wikipedia for shakespeare",
+        "tell me about bill gates",
+        "i want to learn about the sun",
+        "who was mahatma gandhi",
+        "explain how a volcano works",
+        "what is a computer virus",
+        "give me the wiki summary of narendra modi",
+        "what is photosynthesis",
+        "can you tell me about climate change",
+        "what do you know about the internet"
+      ],
+      "responses": ["Searching Wikipedia...", "Let me look that up for you..."]
+    },
+    {
+      "intent": "general",
+      "examples": [
+        "what's the date",
+        "what's today's date",
+        "tell me the date",
+        "how have you been",
+        "how are you",
+        "how are you doing",
+        "what's up",
+        "what's going on",
+        "how is it going",
+        "how’s life",
+        "are you okay",
+        "you good"
+      ],
+      "responses": [
+        "I'm doing great! Thanks for asking.",
+        "Feeling awesome! 😊",
+        "I'm just a bunch of code, but I’m functioning perfectly!",
+        "Today’s a good day to chat. Oh, and by the way — the date is fetched dynamically in your code 😉"
+      ]
+    },
+    {
+      "intent": "joke",
+      "examples": ["tell me a joke", "make me laugh", "say something funny", "i want to hear a joke"],
+      "responses": [
+        "Why did the computer go to therapy? Because it had too many bytes of trauma!",
+        "I'm reading a book on anti-gravity. It's impossible to put down!",
+        "Why do programmers prefer dark mode? Because the light attracts bugs!"
+      ]
+    },
+    {
+      "intent": "motivation",
+      "examples": ["motivate me", "inspire me", "give me motivation", "i need motivation", "say something inspiring"],
+      "responses": [
+        "Believe in yourself — you’re capable of amazing things!",
+        "Every expert was once a beginner. Keep going!",
+        "You’ve got this! Just take the next step forward.",
+        "Push yourself, because no one else is going to do it for you!"
+      ]
+    },
+    {
+      "intent": "bored",
+      "examples": ["i'm bored", "entertain me", "i have nothing to do", "kill my boredom"],
+      "responses": [
+        "Let’s learn something new! Ask me about anything!",
+        "Want to hear a joke or know a fun fact?",
+        "You could try a new hobby! Or ask me something interesting!",
+        "Let’s explore Wikipedia together — pick any topic!"
+      ]
+    },
+    {
+      "intent": "unknown",
+      "examples": ["???", "asdfgh", "xyz", "what even is this"],
+      "responses": ["I'm not sure I understand. Could you rephrase that?", "Sorry, I didn't get that."]
+    }
+  ]
+}
