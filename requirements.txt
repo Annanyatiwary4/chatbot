@@ -17,7 +17,6 @@ nltk==3.9.1
 numpy==2.3.0
 packaging==25.0
 pillow==11.2.1
-Python==3.13.1
 regex==2024.11.6
 requests==2.32.4
 setuptools==80.9.0
