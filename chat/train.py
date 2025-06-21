@@ -83,7 +83,7 @@ train_loader = DataLoader(dataset=dataset,
                           num_workers=0)
 
 # Check if GPU is available
-device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
+device = torch.device('cpu')  
 
 # Initialize the model
 model = NeuralNet(input_size, hidden_size, output_size).to(device)
