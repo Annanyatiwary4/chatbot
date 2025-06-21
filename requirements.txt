@@ -21,8 +21,7 @@ regex==2024.11.6
 requests==2.32.4
 setuptools==80.9.0
 sqlparse==0.5.3
-torch==2.2.0+cpu
---find-links https://download.pytorch.org/whl/cpu/torch_stable.html
+torch==2.7.1
 tqdm==4.67.1
 typing_extensions==4.14.0
 tzdata==2025.2
