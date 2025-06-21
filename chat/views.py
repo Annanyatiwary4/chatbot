@@ -11,7 +11,8 @@ from .model import NeuralNet
 from .nltk_utils import bag_of_words, tokenize
 
 # Set the device to CUDA (GPU) if available or CPU if not
-device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
+device = torch.device('cpu')  # avoid unnecessary CUDA memory prep
+
 
 # Set the model path (from BASE_DIR)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
